@@ -1,12 +1,13 @@
 /* ============================================= */
-/*              Color Variables                      */
+/*              Color Variables                  */
 /* ============================================= */
 /* ============================================= */
 /*        General Page Layout                    */
 /* ============================================= */
 html {
+  height: 100%;
   scroll-behavior: smooth;
-  background-color: #1d1e35;
+  background: linear-gradient(#af67e9, #6565e7);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -368,5 +369,11 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+/* ============================================= */
+/*              Main Styles                      */
+/* ============================================= */
+.question-container {
+  background-color: #fff;
+}
 
 /*# sourceMappingURL=styles.css.map */
