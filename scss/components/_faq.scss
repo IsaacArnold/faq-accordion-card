@@ -18,16 +18,12 @@
         font-size: 2.3em;
     }
     .question-wrapper {
-        margin: 0 5px 0 5px;
+        margin: 0 15px 0 15px;
         border-bottom: 1px solid $divider-color;
-        .answer {
-            padding: 0 5px 0 5px;
-        }
     }
     .question {
         display: flex;
         align-items: center;
-        padding: 0 5px 0 5px;
         svg {
             margin-left: auto;
         }
