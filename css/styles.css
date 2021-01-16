@@ -5,7 +5,6 @@
 /*        General Page Layout                    */
 /* ============================================= */
 html {
-  height: 100%;
   scroll-behavior: smooth;
   background: linear-gradient(#af67e9, #6565e7);
 }
@@ -354,7 +353,7 @@ template {
 /*              Base styles                      */
 /* ============================================= */
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   box-sizing: border-box;
 }
 
@@ -374,6 +373,30 @@ a {
 /* ============================================= */
 .question-container {
   background-color: #fff;
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+.question-container h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.question-container .question-wrapper {
+  margin: 0 5px 0 5px;
+  border-bottom: 1px solid #e7e7e9;
+}
+.question-container .question-wrapper .answer {
+  padding: 0 5px 0 5px;
+}
+.question-container .question {
+  display: flex;
+  align-items: center;
+  padding: 0 5px 0 5px;
+}
+.question-container .question svg {
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
