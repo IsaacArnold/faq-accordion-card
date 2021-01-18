@@ -448,23 +448,33 @@ a {
   margin-left: auto;
 }
 
-/* line 33, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 31, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+.question-container .answer {
+  color: #787887;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .hide {
   display: none;
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 40, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
-.rotate {
+/* line 44, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+.rotate-down {
   transform: rotate(180deg);
   transition: transform .3s ease;
 }
 
-/* line 46, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 52, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+.rotate {
+  transition: all .3s ease;
+}
+
+/* line 56, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 #woman {
   position: absolute;
   z-index: 2;
@@ -472,7 +482,7 @@ a {
   top: -80px;
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 63, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 #shadow {
   position: absolute;
   z-index: 1;
