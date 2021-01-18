@@ -30,6 +30,19 @@
     }
 }
 
+.hide {
+    display: none;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform .3s ease;
+}
+
 #woman {
     position: absolute;
     z-index: 2;
