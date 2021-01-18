@@ -24,12 +24,17 @@
     .question {
         display: flex;
         align-items: center;
+        cursor: pointer;
         svg {
             margin-left: auto;
+        }
+        p:hover {
+            color: $hover-state
         }
     }
     .answer {
         color: $answer-txt;
+        font-size: 14px;
     }
 }
 

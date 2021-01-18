@@ -441,40 +441,47 @@ a {
 .question-container .question {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 28, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .question-container .question svg {
   margin-left: auto;
 }
 
 /* line 31, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
-.question-container .answer {
-  color: #787887;
+.question-container .question p:hover {
+  color: #f47c57;
 }
 
-/* line 36, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 35, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+.question-container .answer {
+  color: #787887;
+  font-size: 14px;
+}
+
+/* line 41, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .hide {
   display: none;
 }
 
-/* line 40, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 45, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 44, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 49, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .rotate-down {
   transform: rotate(180deg);
   transition: transform .3s ease;
 }
 
-/* line 52, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 57, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 .rotate {
   transition: all .3s ease;
 }
 
-/* line 56, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 61, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 #woman {
   position: absolute;
   z-index: 2;
@@ -482,7 +489,7 @@ a {
   top: -80px;
 }
 
-/* line 63, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+/* line 68, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
 #shadow {
   position: absolute;
   z-index: 1;

@@ -1,8 +1,6 @@
 /* ====================================
 Global Variables
 =====================================*/
-// const chevron = document.querySelectorAll("#chevron");
-// const answerP = document.querySelectorAll(".answer");
 const questionWrapper = document.querySelectorAll(".question-wrapper");
 
 // Event listener concept from Mehdi Aoussiad blog article: https://medium.com/javascript-in-plain-english/building-an-accordion-with-vanilla-javascript-8440ab8f07ff
