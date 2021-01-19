@@ -6,6 +6,14 @@ html {
     position: relative;
 }
 
+footer {
+    text-align: center;
+}
+
+.image {
+    grid-area: image;
+}
+
 .question-container {
     background-color: #fff;
     width: 90%;
@@ -19,6 +27,7 @@ html {
         padding-top: 160px;
         font-weight: 700;
         font-size: 2.3em;
+        grid-area: header;
     }
     .question-wrapper {
         margin: 0 15px 0 15px;
@@ -57,6 +66,11 @@ html {
     transition: transform .3s ease;
 }
 
+.questions-div {
+    grid-area: question;
+    margin-top: 100px;
+}
+
 // Rotate rule concept from: https://stackoverflow.com/questions/26173376/rotate-font-awesome-icon-on-click/26173496
 
 // This rotate class is added to the HTML element so that it is always there -> then when the above .rotate-down rule is removed it returns to it's normal position, with the transition
@@ -85,4 +99,26 @@ html {
     -moz-transform: translate(-50%, -325%);
     -webkit-transform: translate(-50%, -325%);
     -o-transform: translate(-50%, -325%);
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+    .question-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "image" "header",
+            "image" "question",
+            "image" "question",
+            "image" "question",
+            "image" "question",
+            "image" "question",
+        ;
+        h1 {
+            padding-top: 0;
+        }
+    }
 }
