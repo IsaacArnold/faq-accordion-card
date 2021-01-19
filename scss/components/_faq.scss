@@ -34,6 +34,9 @@ html {
         p:hover {
             color: $hover-state
         }
+        p:active {
+            color: #000;
+        }
     }
     .answer {
         color: $answer-txt;

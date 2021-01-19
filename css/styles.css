@@ -407,6 +407,9 @@ html {
 .question-container .question p:hover {
   color: #f47c57;
 }
+.question-container .question p:active {
+  color: #000;
+}
 .question-container .answer {
   color: #787887;
   font-size: 14px;
