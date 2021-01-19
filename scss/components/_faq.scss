@@ -2,12 +2,11 @@
 /*              Main Styles                      */
 /* ============================================= */
 
-body {
+html {
     position: relative;
 }
 
 .question-container {
-    // position: relative;
     background-color: #fff;
     width: 90%;
     margin: auto;
@@ -65,13 +64,22 @@ body {
 #woman {
     position: absolute;
     z-index: 2;
-    left: 10%;
-    top: -107px;
+    // Centering idea from gopalraju on Stackoverflow: https://stackoverflow.com/questions/30515472/how-to-resize-an-absolute-image-that-is-scale-to-the-window-size/30515975#30515975?newreg=e66d971cdda64570999297785b74c6cb
+    left:50%;
+    top:50%;
+    transform: translate(-55%, -228%);
+    -moz-transform: translate(-55%, -228%);
+    -webkit-transform: translate(-55%, -228%);
+    -o-transform: translate(-55%, -228%);
 }
 
 #shadow {
     position: absolute;
     z-index: 1;
-    left: 18%;
-    top: 2px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -325%);
+    -moz-transform: translate(-50%, -325%);
+    -webkit-transform: translate(-50%, -325%);
+    -o-transform: translate(-50%, -325%);
 }
