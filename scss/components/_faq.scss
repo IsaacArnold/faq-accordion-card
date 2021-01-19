@@ -88,6 +88,9 @@ footer {
     -moz-transform: translate(-55%, -228%);
     -webkit-transform: translate(-55%, -228%);
     -o-transform: translate(-55%, -228%);
+    @media (min-width: 767px) {
+        display: none;
+    }
 }
 
 #shadow {
@@ -99,6 +102,9 @@ footer {
     -moz-transform: translate(-50%, -325%);
     -webkit-transform: translate(-50%, -325%);
     -o-transform: translate(-50%, -325%);
+    @media (min-width: 767px) {
+        display: none;
+    }
 }
 
 /* ============================================= */

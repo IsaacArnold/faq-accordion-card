@@ -456,6 +456,11 @@ footer {
   -webkit-transform: translate(-55%, -228%);
   -o-transform: translate(-55%, -228%);
 }
+@media (min-width: 767px) {
+  #woman {
+    display: none;
+  }
+}
 
 #shadow {
   position: absolute;
@@ -466,6 +471,11 @@ footer {
   -moz-transform: translate(-50%, -325%);
   -webkit-transform: translate(-50%, -325%);
   -o-transform: translate(-50%, -325%);
+}
+@media (min-width: 767px) {
+  #shadow {
+    display: none;
+  }
 }
 
 /* ============================================= */
