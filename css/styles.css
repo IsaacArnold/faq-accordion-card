@@ -373,8 +373,11 @@ a {
 /* ============================================= */
 /*              Main Styles                      */
 /* ============================================= */
-.question-container {
+body {
   position: relative;
+}
+
+.question-container {
   background-color: #fff;
   width: 90%;
   margin: auto;
@@ -430,14 +433,14 @@ a {
   position: absolute;
   z-index: 2;
   left: 10%;
-  top: -80px;
+  top: -107px;
 }
 
 #shadow {
   position: absolute;
   z-index: 1;
   left: 18%;
-  top: 25px;
+  top: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */
