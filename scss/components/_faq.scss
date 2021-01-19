@@ -88,7 +88,7 @@ footer {
     -moz-transform: translate(-55%, -228%);
     -webkit-transform: translate(-55%, -228%);
     -o-transform: translate(-55%, -228%);
-    @media (min-width: 767px) {
+    @media (max-width: 768px) {
         display: none;
     }
 }
@@ -102,7 +102,7 @@ footer {
     -moz-transform: translate(-50%, -325%);
     -webkit-transform: translate(-50%, -325%);
     -o-transform: translate(-50%, -325%);
-    @media (min-width: 767px) {
+    @media (max-width: 768px) {
         display: none;
     }
 }
