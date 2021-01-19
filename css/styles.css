@@ -513,13 +513,10 @@ footer {
   z-index: 2;
   left: 50%;
   top: 50%;
-  transform: translate(-55%, -228%);
-  -moz-transform: translate(-55%, -228%);
-  -webkit-transform: translate(-55%, -228%);
-  -o-transform: translate(-55%, -228%);
+  transform: translate(-55%, -263%);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 767px) {
   /* line 81, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   #woman {
     display: none;
@@ -532,31 +529,34 @@ footer {
   z-index: 1;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -325%);
-  -moz-transform: translate(-50%, -325%);
-  -webkit-transform: translate(-50%, -325%);
-  -o-transform: translate(-50%, -325%);
+  transform: translate(-50%, -390%);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 767px) {
   /* line 96, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   #shadow {
     display: none;
   }
 }
 
+/* line 110, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+#woman-desktop,
+#shadow-desktop {
+  display: none;
+}
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 114, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 119, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   .question-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "image" "header", "image" "question", "image" "question", "image" "question", "image" "question", "image" "question";
   }
-  /* line 126, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 131, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   .question-container h1 {
     padding-top: 0;
   }

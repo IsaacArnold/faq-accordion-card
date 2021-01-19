@@ -84,11 +84,11 @@ footer {
     // Centering idea from gopalraju on Stackoverflow: https://stackoverflow.com/questions/30515472/how-to-resize-an-absolute-image-that-is-scale-to-the-window-size/30515975#30515975?newreg=e66d971cdda64570999297785b74c6cb
     left:50%;
     top:50%;
-    transform: translate(-55%, -228%);
-    -moz-transform: translate(-55%, -228%);
-    -webkit-transform: translate(-55%, -228%);
-    -o-transform: translate(-55%, -228%);
-    @media (max-width: 768px) {
+    transform: translate(-55%, -263%);
+    // -moz-transform: translate(-55%, -228%);
+    // -webkit-transform: translate(-55%, -228%);
+    // -o-transform: translate(-55%, -228%);
+    @media (min-width: 767px) {
         display: none;
     }
 }
@@ -98,13 +98,18 @@ footer {
     z-index: 1;
     left:50%;
     top:50%;
-    transform: translate(-50%, -325%);
-    -moz-transform: translate(-50%, -325%);
-    -webkit-transform: translate(-50%, -325%);
-    -o-transform: translate(-50%, -325%);
-    @media (max-width: 768px) {
+    transform: translate(-50%, -390%);
+    // -moz-transform: translate(-50%, -325%);
+    // -webkit-transform: translate(-50%, -325%);
+    // -o-transform: translate(-50%, -325%);
+    @media (min-width: 767px) {
         display: none;
     }
+}
+
+#woman-desktop,
+#shadow-desktop {
+    display: none;
 }
 
 /* ============================================= */
