@@ -24,7 +24,7 @@ footer {
     margin-top: 130px;
     h1 {
         text-align: center;
-        padding-top: 160px;
+        padding-top: 130px;
         font-weight: 700;
         font-size: 2.3em;
         grid-area: header;
@@ -68,7 +68,6 @@ footer {
 
 .questions-div {
     grid-area: question;
-    margin-top: 100px;
 }
 
 // Rotate rule concept from: https://stackoverflow.com/questions/26173376/rotate-font-awesome-icon-on-click/26173496
@@ -84,7 +83,7 @@ footer {
     // Centering idea from gopalraju on Stackoverflow: https://stackoverflow.com/questions/30515472/how-to-resize-an-absolute-image-that-is-scale-to-the-window-size/30515975#30515975?newreg=e66d971cdda64570999297785b74c6cb
     left:50%;
     top:50%;
-    transform: translate(-55%, -263%);
+    transform: translate(-55%, -228%);
     // -moz-transform: translate(-55%, -228%);
     // -webkit-transform: translate(-55%, -228%);
     // -o-transform: translate(-55%, -228%);
@@ -98,7 +97,7 @@ footer {
     z-index: 1;
     left:50%;
     top:50%;
-    transform: translate(-50%, -390%);
+    transform: translate(-50%, -325%);
     // -moz-transform: translate(-50%, -325%);
     // -webkit-transform: translate(-50%, -325%);
     // -o-transform: translate(-50%, -325%);
@@ -131,5 +130,8 @@ footer {
         h1 {
             padding-top: 0;
         }
+    }
+    .questions-div {
+        margin-top: 100px;
     }
 }
