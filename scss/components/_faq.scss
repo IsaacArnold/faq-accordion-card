@@ -55,7 +55,7 @@ footer {
             color: $hover-state
         }
         p:active {
-            color: #000;
+            color: $text-color;
         }
     }
     .answer {
