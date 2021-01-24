@@ -627,24 +627,23 @@ footer {
   #box {
     position: absolute;
     z-index: 3;
-    left: 50%;
-    top: 50%;
-    transform: translate(-310%, 136%);
+    left: -2%;
+    bottom: -293px;
     width: 17%;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 196, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 198, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   .question-container {
     grid-template-columns: 460.795px 460.795px;
   }
-  /* line 200, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 202, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   .questions-div {
     margin-right: 20px;
     margin-left: auto;
   }
-  /* line 204, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 206, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   #woman-desktop {
     position: absolute;
     z-index: 2;
@@ -652,7 +651,7 @@ footer {
     top: 8%;
     width: 116%;
   }
-  /* line 213, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 215, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   #shadow-desktop {
     position: absolute;
     z-index: 1;
@@ -660,7 +659,7 @@ footer {
     top: -67%;
     width: 225%;
   }
-  /* line 222, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
+  /* line 224, ../../../../../../../../../../../../../Users/IsaacArnold/Documents/web-projects/frontend-mentor-challenges/faq-accordion-card/scss/components/_faq.scss */
   #box {
     position: absolute;
     z-index: 3;

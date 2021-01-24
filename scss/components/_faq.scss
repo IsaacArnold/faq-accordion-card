@@ -184,9 +184,11 @@ footer {
     #box {
         position: absolute;
         z-index: 3;
-        left: 50%;
-        top: 50%;
-        transform: translate(-310%, 136%);
+        // left: 50%;
+        // top: 50%;
+        // transform: translate(-310%, 136%);
+        left: -2%;
+        bottom: -293px;
         width: 17%;
     }
 }
