@@ -7,7 +7,9 @@ html {
 }
 
 body {
+    margin: auto;
     margin-top: 170px;
+    max-width: 1024px;
 }
 
 footer {
@@ -185,6 +187,44 @@ footer {
         left: 50%;
         top: 50%;
         transform: translate(-310%, 136%);
+        width: 17%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .question-container {
+        grid-template-columns: 460.795px 460.795px;
+    }
+
+    .questions-div {
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    #woman-desktop {
+        position: absolute;
+        z-index: 2;
+        left: -12%;
+        top: 8%;
+        // transform: translate(-158%, -45%);
+        width: 116%;
+    }
+
+    #shadow-desktop {
+        position: absolute;
+        z-index: 1;
+        left: -125%;
+        top: -67%;
+        // transform: translate(-128%, -55%);
+        width: 225%;
+    }
+
+    #box {
+        position: absolute;
+        z-index: 3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-300%, 90%);
         width: 17%;
     }
 }
