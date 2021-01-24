@@ -1,12 +1,9 @@
 {
   "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "../../portfolio-site/isaacarnold"
-	}
-],
+    {
+      "path": "."
+    }
+  ],
   "settings": {
     "liveServer.settings.multiRootWorkspaceName": "faq-accordion-card"
   }
